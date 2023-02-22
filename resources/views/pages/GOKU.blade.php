@@ -9,16 +9,12 @@
     <title>{{ $name  }}</title>
 </head>
 
-<body>
-    <div class="container d-flex justify-content-between align-items-center mt-3">
+<body class="bg-info">
+    <div class="text-center">
         <h1>{{ $title }}</h1>
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            @foreach($links as $link)
-            <li class="mx-3">
-                <a href="/{{$link}}">{{ $link }}</a>
-            </li>
-            @endforeach
-        </ul>
+        <img src="https://images7.alphacoders.com/310/310795.jpg" alt="" style="width: 20rem;">
+        <p class="mt-3">Son Goku (孫 悟空 Son Gokū), chiamato spesso semplicemente Goku, è un personaggio immaginario e il protagonista del manga Dragon Ball di Akira Toriyama.</p>
+        <a href="/">torna alla pagina precedente</a>
     </div>
 </body>
 

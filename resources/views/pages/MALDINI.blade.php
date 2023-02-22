@@ -9,16 +9,12 @@
     <title>{{ $name  }}</title>
 </head>
 
-<body>
-    <div class="container d-flex justify-content-between align-items-center mt-3">
+<body class="bg-danger">
+    <div class="text-center">
         <h1>{{ $title }}</h1>
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            @foreach($links as $link)
-            <li class="mx-3">
-                <a href="/{{$link}}">{{ $link }}</a>
-            </li>
-            @endforeach
-        </ul>
+        <img src="https://upload.wikimedia.org/wikipedia/it/4/4c/Paolo_Maldini_-_Milan_AC_1996-97.jpg" alt="" style="width: 20rem;">
+        <p class="mt-3">Paolo Cesare Maldini (Milano, 26 giugno 1968) è un dirigente sportivo ed ex calciatore italiano, di ruolo difensore, direttore dell'area tecnica del Milan.</p>
+        <a href="/">torna alla pagina precedente</a>
     </div>
 </body>
 

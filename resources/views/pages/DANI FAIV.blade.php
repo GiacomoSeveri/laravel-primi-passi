@@ -9,16 +9,13 @@
     <title>{{ $name  }}</title>
 </head>
 
-<body>
-    <div class="container d-flex justify-content-between align-items-center mt-3">
+<body class="bg-success-subtle">
+    <div class="text-center">
         <h1>{{ $title }}</h1>
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            @foreach($links as $link)
-            <li class="mx-3">
-                <a href="/{{$link}}">{{ $link }}</a>
-            </li>
-            @endforeach
-        </ul>
+        <img src="https://www.atipicishop.com/img/cms/6%20Eventi/DANI%20FAIV%20x%20PHOBIA/dani-faiv-evento-instore-atipici.jpg" alt="" style="width: 20rem;">
+        <p class="mt-3">Dani Faiv, pseudonimo di Daniele Ceccaroni (La Spezia, 5 novembre 1993), è un rapper italiano. Dani Faiv. Nazionalità, Italia · Genere · Hip hop.</p>
+        <a href="/">torna alla pagina precedente</a>
+
     </div>
 </body>
 

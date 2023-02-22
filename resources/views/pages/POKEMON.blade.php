@@ -9,16 +9,12 @@
     <title>{{ $name  }}</title>
 </head>
 
-<body>
-    <div class="container d-flex justify-content-between align-items-center mt-3">
+<body class="bg-success">
+    <div class="text-center">
         <h1>{{ $title }}</h1>
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            @foreach($links as $link)
-            <li class="mx-3">
-                <a href="/{{$link}}">{{ $link }}</a>
-            </li>
-            @endforeach
-        </ul>
+        <img src="https://www.pokemonmillennium.net/wp-content/uploads/2019/04/copertina-yusuke.jpg" alt="" style="width: 20rem;">
+        <p class="mt-3">Pokémon (ポケモン Pokemon, /ˈpɔkemon/ in italiano, [pokemoɴ] in giapponese) è un media franchise giapponese di proprietà della The Pokémon Company.</p>
+        <a href="/">torna alla pagina precedente</a>
     </div>
 </body>
 

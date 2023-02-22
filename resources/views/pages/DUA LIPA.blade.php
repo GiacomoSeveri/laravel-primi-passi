@@ -9,16 +9,12 @@
     <title>{{ $name  }}</title>
 </head>
 
-<body>
-    <div class="container d-flex justify-content-between align-items-center mt-3">
+<body class="bg-warning">
+    <div class="text-center">
         <h1>{{ $title }}</h1>
-        <ul class="list-unstyled d-flex justify-content-between align-items-center">
-            @foreach($links as $link)
-            <li class="mx-3">
-                <a href="/{{$link}}">{{ $link }}</a>
-            </li>
-            @endforeach
-        </ul>
+        <img src="https://i0.wp.com/www.piterpan.it/wp-content/uploads/2018/01/dua_lipa_2017.jpg?w=1275&ssl=1" alt="" style="width: 20rem;">
+        <p class="mt-3">Dua Lipa (Londra, 22 agosto 1995) è una cantante e compositrice britannica di etnia kosovaro-albanese.</p>
+        <a href="/">torna alla pagina precedente</a>
     </div>
 </body>
 
